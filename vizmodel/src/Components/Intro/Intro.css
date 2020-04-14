@@ -1,0 +1,42 @@
+  img {
+    height: 100vh;
+    width: 100vw; 
+    object-fit: cover;
+    opacity: 0.2;
+  }
+
+  .hero-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+  }
+  
+  .hero-text button {
+    border-color: rgb(0, 0, 0);
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: rgb(250, 218, 218);
+    color: rgb(0, 0, 0);
+  }

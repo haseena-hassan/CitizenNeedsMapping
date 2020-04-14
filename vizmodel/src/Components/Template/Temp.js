@@ -18,4 +18,4 @@ class Template extends React.Component{
         )
     }
 }
-export default ;
+export default Template;
