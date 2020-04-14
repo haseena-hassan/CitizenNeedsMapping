@@ -10,9 +10,11 @@ class Footer extends React.Component{
     }
     render(){
         return(
-            <div>
-                <p>This is the footer</p>
-           </div>
+            <div class="footer">
+                <p>
+                    &copy; Copyright Governance Innovation Labs. 
+                </p>
+            </div>
         )
     }
 }

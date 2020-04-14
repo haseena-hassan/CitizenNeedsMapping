@@ -1,29 +1,29 @@
 import React from 'react'
 import './Body.css'
+
+import Intro from '../Intro/Intro'
+import Model from '../Model/Model'
+import Barplot from '../Barplot/Barplot'
+import About from '../About/About'
+import Feedback from '../Feedback/Feedback'
+
+
 class Body extends React.Component{
     constructor(props)
     {
         super(props);
         this.state={
-            example:''
+            example:false
         }
-        this.absyes=this.absyes.bind(this);
     }
-    yes=()=>{
-        this.setState({example: "podi kurange"});
-    }
-    absyes(){
-        this.setState({example: "enikkariyaam already"});
-    }
-    // Functions can be defined either way
     render(){
         return(
             <div>
-                <p>are you kurangu?</p>
-                <button onClick={this.yes}>Yes</button>
-                <button onClick={this.absyes}>Absolutely Yes</button>
-                <br/>
-                <p>{this.state.example}</p>
+                <Intro/>
+                <Model/>
+                <Barplot/>
+                <About/>
+                <Feedback/>
            </div>
         )
     }

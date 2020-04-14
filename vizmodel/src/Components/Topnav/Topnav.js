@@ -1,5 +1,7 @@
 import React from 'react'
 import './Topnav.css'
+
+
 class Topnav extends React.Component{
     constructor(props)
     {
@@ -10,9 +12,13 @@ class Topnav extends React.Component{
     }
     render(){
         return(
-            <div>
-                <p>Hi kurange</p>
-           </div>
+            <div id="bar">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
         )
     }
 }
