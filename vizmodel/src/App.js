@@ -2,13 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Topbar from './Topbar/Topbar';
+import Landing from './Components/Landing/Landing';
 
 function App() {
   return (
-    <div>
-      <Topbar/>
-    </div>
+    <Landing/>
   );
 }
 
