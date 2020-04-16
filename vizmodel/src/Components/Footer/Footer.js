@@ -1,19 +1,22 @@
 import React from 'react'
 import './Footer.css'
-class Footer extends React.Component{
-    constructor(props)
-    {
+class Footer extends React.Component {
+    constructor(props) {
         super(props);
-        this.state={
-            example:false
+        this.state = {
+            example: false
         }
     }
-    render(){
-        return(
+    render() {
+        return (
             <div class="footer">
-                <p>
-                    &copy; Copyright Governance Innovation Labs. 
-                </p>
+                <span>
+                    &copy; Copyright Governance Innovation Labs.
+                </span>
+                {!this.props.Feedback ?
+                    <span className="Feed" onClick={this.props.callFeedback}>
+                        Feedback
+                </span> : null}
             </div>
         )
     }
