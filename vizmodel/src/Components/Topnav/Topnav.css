@@ -8,7 +8,7 @@
 
 .topbar button {
   height: 3rem;
-  border-color: #abfbff;
+  border-color: #00122c;
   outline: 0;
   padding: 10px 25px;
   color: black;
@@ -21,7 +21,7 @@
 }
 
 .topbar button:hover {
-  background-color: #abfbff;
+  background-color: #ffabab;
   border-color: black;
   color: rgb(0, 0, 0);
 }
