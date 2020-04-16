@@ -8,23 +8,24 @@ import About from '../About/About'
 import Feedback from '../Feedback/Feedback'
 
 
-class Body extends React.Component{
-    constructor(props)
-    {
+class Body extends React.Component {
+    constructor(props) {
         super(props);
-        this.state={
-            example:false
+        this.state = {
+            example: false
         }
     }
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <Intro/>
-                <Model/>
-                <Barplot/>
-                <About/>
-                <Feedback/>
-           </div>
+                <Intro />
+                <Model />
+                <div className="row">
+                    <Barplot />
+                    <About />
+                </div>
+                <Feedback />
+            </div>
         )
     }
 }

@@ -14,12 +14,11 @@ class Intro extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className="intro">
                 <img src={Hero} class="hero-image"></img>
                 <div class="hero-text">
                     {/* <img src={Logo}></img> */}
                     <h1>Citizen Needs <br/>Mapping</h1>
-                    <button>Attempt Syrvey</button>
                 </div>
             </div>
         )

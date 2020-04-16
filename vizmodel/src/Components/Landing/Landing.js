@@ -14,7 +14,7 @@ class Landing extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className="Landing">
                 <Topnav/>
                 <Body/>
                 <Footer/>

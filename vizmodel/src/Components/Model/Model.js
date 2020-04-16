@@ -12,7 +12,7 @@ class Model extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className="model">
                 
            </div>
         )
