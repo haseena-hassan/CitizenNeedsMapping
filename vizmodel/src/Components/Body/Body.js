@@ -11,10 +11,9 @@ import Feedback from '../Feedback/Feedback'
 class Body extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            example: false
-        }
+        
     }
+    
     render() {
         return (
             <div>
@@ -24,7 +23,7 @@ class Body extends React.Component {
                     <Barplot />
                     <About />
                 </div>
-                <Feedback />
+                {this.props.Feedback?<Feedback {...this.props}/>:null}
             </div>
         )
     }
