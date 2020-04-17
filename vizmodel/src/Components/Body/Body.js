@@ -23,7 +23,7 @@ class Body extends React.Component {
                     <Barplot />
                     <About />
                 </div>
-                {this.props.Feedback?<Feedback {...this.props}/>:null}
+                <Feedback/>
             </div>
         )
     }
