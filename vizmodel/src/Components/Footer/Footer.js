@@ -13,10 +13,6 @@ class Footer extends React.Component {
                 <span>
                     &copy; Copyright Governance Innovation Labs.
                 </span>
-                {!this.props.Feedback ?
-                    <span className="Feed" onClick={this.props.callFeedback}>
-                        Feedback
-                </span> : null}
             </div>
         )
     }

@@ -1,55 +1,61 @@
 .feedback {
-    width: 30vw;
-    left: 35vw;
-    bottom: 10vh;
-    position: absolute;
+    width: 80vw;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
-    padding: 10px 0 50px 0;
-    align-items: center;
-    border: 2px solid #03adfc;
-    border-radius: 5px;
-    -webkit-box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
-    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
-    background-color: white;
 }
 
-.close {
-    width: 100%;
+.feedback div {
     display: flex;
-    justify-content: flex-end;
-    color: #03adfc;
-}
-
-.close i {
-    cursor: pointer;
 }
 
 .feedback input, textarea {
-    width: 80%;
-    border: none;
-    border-bottom: 2px solid black;
-    margin: 5%;
-    transition: 500ms;
+    width: 300px;
+    margin: 1rem;
 }
 
-.feedback input:focus, textarea:focus {
-    border-bottom: 2px solid #03adfc;
-    transition: 500ms;
+.feedback span {
+    margin: 2rem;
+}
+
+#email {
+    border: none;
+    height: 30px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#name {
+    border: none;
+    height: 30px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#message {
+    border: none;
+    height: 80px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .feedback button {
-    width: 30%;
-    margin: 5px 0 5px 0;
-    background-color: #03adfc;
-    border: 1px solid white;
-    border-radius: 0.2rem;
-    padding: 3px;
-    color: white;
+    height: 3rem;
+    border-color: #abfbff;
+    outline: 0;
+    padding: 3px 25px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
     cursor: pointer;
+    margin: 20px;
+    margin-right: 100px;
 }
 
 .feedback button:hover {
-    -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    background-color: #abfbff;
+    border-color: black;
+    color: rgb(0, 0, 0);
 }
