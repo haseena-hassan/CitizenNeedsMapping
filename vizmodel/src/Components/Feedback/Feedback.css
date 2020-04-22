@@ -22,32 +22,33 @@
 #email {
     border: none;
     height: 30px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
+    border: 2px solid #555555;
+    padding-left: 10px;
 }
 
 #name {
     border: none;
     height: 30px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border: 2px solid #555555;
+    padding-left: 10px;
 }
 
 #message {
     border: none;
     height: 80px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border: 2px solid #555555;
+    padding: 10px;
 }
 
 .feedback button {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
     height: 3rem;
-    border-color: #abfbff;
     outline: 0;
     padding: 3px 25px;
-    color: black;
     font-weight: bold;
-    background-color: white;
     text-align: center;
     cursor: pointer;
     margin: 20px;
@@ -55,7 +56,6 @@
 }
 
 .feedback button:hover {
-    background-color: #abfbff;
-    border-color: black;
-    color: rgb(0, 0, 0);
+    background-color: #555555;
+    color: white;
 }

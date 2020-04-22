@@ -25,7 +25,7 @@ class Feedback extends React.Component {
     render() {
         return (
             <div className="feedback">
-                <h3>Feedback</h3>
+                <h1>Feedback</h1>
                 <table>
                     <tbody>
                 <tr>
