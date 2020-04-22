@@ -17,8 +17,12 @@ class Intro extends React.Component{
             <div className="intro">
                 <img src={Hero} class="hero-image"></img>
                 <div class="hero-text">
-                    {/* <img src={Logo}></img> */}
-                    <h1>Citizen Needs <br/>Mapping</h1>
+                    <img src={Logo} class="logo"></img>
+                    <h1 class="hero-title">Citizen Needs <br/>Mapping</h1>
+                    
+                </div>
+                <div>
+                    <p>How interested would you be to <br/>share us what you need from the society and the authorities ?<br/>Join us in contributing to this! </p>
                 </div>
             </div>
         )
