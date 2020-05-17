@@ -1,21 +1,13 @@
 .plot {
     box-sizing: border-box;
-    width: 80vw;    
+    width: 100%;    
     margin-left: 5vw;
     margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
 }
 
-.column {
-    float: left;
-    width: 10%;
-    height: 10%;
-    padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.barplot{
+    height:50vh;
+    border: 1px solid black;
 }
