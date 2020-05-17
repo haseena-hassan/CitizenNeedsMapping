@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Hassi/static/css/main.2a10f52d.chunk.css",
+    "main.js": "/Hassi/static/js/main.e7a45dbd.chunk.js",
+    "main.js.map": "/Hassi/static/js/main.e7a45dbd.chunk.js.map",
+    "runtime-main.js": "/Hassi/static/js/runtime-main.6d417f8a.js",
+    "runtime-main.js.map": "/Hassi/static/js/runtime-main.6d417f8a.js.map",
+    "static/js/2.9aafaa52.chunk.js": "/Hassi/static/js/2.9aafaa52.chunk.js",
+    "static/js/2.9aafaa52.chunk.js.map": "/Hassi/static/js/2.9aafaa52.chunk.js.map",
+    "index.html": "/Hassi/index.html",
+    "precache-manifest.d80174b7d5a676762c2f858a72062222.js": "/Hassi/precache-manifest.d80174b7d5a676762c2f858a72062222.js",
+    "service-worker.js": "/Hassi/service-worker.js",
+    "static/css/main.2a10f52d.chunk.css.map": "/Hassi/static/css/main.2a10f52d.chunk.css.map",
+    "static/js/2.9aafaa52.chunk.js.LICENSE.txt": "/Hassi/static/js/2.9aafaa52.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "/Hassi/static/media/Logo.2da0f1d5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d417f8a.js",
+    "static/js/2.9aafaa52.chunk.js",
+    "static/css/main.2a10f52d.chunk.css",
+    "static/js/main.e7a45dbd.chunk.js"
+  ]
+}
