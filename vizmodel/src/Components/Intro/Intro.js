@@ -16,13 +16,13 @@ class Intro extends React.Component{
         return(
             <div className="intro">
                 <img src={Hero} class="hero-image"></img>
-                <div class="hero-text">
+                <div class="hero-box">
                     <img src={Logo} class="logo"></img>
                     <h1 class="hero-title">Citizen Needs <br/>Mapping</h1>
                     
                 </div>
                 <div>
-                    <p>How interested would you be to <br/>share us what you need from the society and the authorities ?<br/>Join us in contributing to this! </p>
+                    <p class="hero-text">How interested would you be to <br/>share us what you need from the society and the authorities ?<br/>Join us in contributing to this! </p>
                 </div>
             </div>
         )

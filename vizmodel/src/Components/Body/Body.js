@@ -20,10 +20,8 @@ class Body extends React.Component {
             <div>
                 <Intro />
                 <Model />
-                <div className="row">
-                    <Barplot />
-                    <About />
-                </div>
+                <Barplot />
+                <About />
                 <Feedback/>
             </div>
         )

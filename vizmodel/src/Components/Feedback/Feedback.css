@@ -1,5 +1,5 @@
 .feedback {
-    width: 80vw;
+    width: 80vw;    
     margin-left: 5vw;
     margin-bottom: 5vh;
     display: flex;
@@ -22,30 +22,30 @@
 #email {
     border: none;
     height: 30px;
-    border: 2px solid #555555;
+    border: 2px solid #a8c5e1;
     padding-left: 10px;
 }
 
 #name {
     border: none;
     height: 30px;
-    border: 2px solid #555555;
+    border: 2px solid #a8c5e1;
     padding-left: 10px;
 }
 
 #message {
     border: none;
     height: 80px;
-    border: 2px solid #555555;
+    border: 2px solid #a8c5e1;
     padding: 10px;
 }
 
 .feedback button {
     border-radius: 5px;
     background-color: white;
-    color: black;
-    border: 2px solid #555555;
-    height: 3rem;
+    color: #016ed8;
+    border: 2px solid #016ed8;
+    height: 2.5rem;
     outline: 0;
     padding: 3px 25px;
     font-weight: bold;
@@ -56,6 +56,6 @@
 }
 
 .feedback button:hover {
-    background-color: #555555;
+    background-color: #016ed8;
     color: white;
 }
